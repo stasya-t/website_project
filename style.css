@@ -1,0 +1,167 @@
+header{
+    color: white;
+    background-color: blueviolet;
+    padding: 20px;
+
+}
+
+.header-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+
+}
+
+.header-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.img-logo{
+    margin-right: 15px;
+    align-items: center;
+
+}
+
+.header-logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 10;
+}
+
+
+
+
+.menu-item{
+    list-style: none;
+    margin: 5px;
+}
+
+.menu-link{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+
+.menu-link:hover{
+    color: hotpink;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:bold;
+    size: 15px;
+}
+
+*{
+    font-family: fantazyor;
+    margin:0;
+    padding: 0;
+}
+
+.container{
+    padding: 15px;
+    margin: auto;
+}
+
+
+.title-logo{
+    margin-bottom: 15px;
+
+}
+
+.banner{
+    background-image: url(img/banner-bg.jpg);
+    color:white;
+
+}
+
+.banner-title{
+    font-size: 10mm;
+}
+
+
+ul li:hover{
+    text-shadow: 0 0 10px black;
+}
+
+
+
+.cards{
+    padding: 30px;
+    color: rgb(47, 5, 114);
+    text-align: center;
+    width: 200px;
+    margin: 20px;
+}
+
+.cards-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.card{
+    padding: 25px;
+    margin-top: 25px;
+    text-align: center;
+    border-width: 2px;
+    border: solid rgba(203, 171, 255, 0.418);
+    box-shadow: 0 0 20px hotpink;
+}
+
+.card:hover{
+    background-color: rgba(203, 171, 255, 0.418);
+    width: 180px;
+    height: 245px;
+    text-align: center;
+    box-shadow: 0 0 20px;
+}
+
+.card-img{
+    margin-bottom: 20px;
+}
+
+.card-button{
+    margin-top: 40px;
+    text-align: center;
+    background-color: rgba(203, 171, 255, 0.418);
+    border-radius: 20px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+
+.card-button:hover{
+    background-color: hotpink;
+    box-shadow: 0 0 15px;
+}
+
+
+footer{
+    background-image: url(img/footer-bg.jpg);
+    padding: 100px;
+    color: seashell;
+}
+
+td{
+    padding: 40px;
+}
+
+.footer-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.fut-icon{
+    width: 60px;
+    margin: 5px;
+}
