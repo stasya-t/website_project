@@ -9,7 +9,8 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
+    margin: 20px; 
+   align-items: flex-end;
 
 }
 
@@ -64,8 +65,12 @@ header{
 }
 
 .container{
-    padding: 15px;
-    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: center;
 }
 
 
@@ -94,15 +99,14 @@ ul li:hover{
 .cards{
     padding: 30px;
     color: rgb(47, 5, 114);
-    text-align: center;
-    width: 200px;
-    margin: 20px;
+
 }
 
 .cards-row{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 
@@ -113,6 +117,8 @@ ul li:hover{
     border-width: 2px;
     border: solid rgba(203, 171, 255, 0.418);
     box-shadow: 0 0 20px hotpink;
+    flex-wrap: wrap;
+    margin: 20px;
 }
 
 .card:hover{
